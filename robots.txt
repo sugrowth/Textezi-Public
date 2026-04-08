@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://github.com/sugrowth/Textezi-Public/blob/main/sitemap.xml
