@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Features | Textezi</title>
-    <meta name="description" content="Textezi product features, workflow principles, and the boundaries that keep conversion predictable.">
+    <meta name="description" content="Textezi app features, Android entry points, automation modes, launch languages, and product boundaries.">
     <link rel="icon" type="image/png" href="favicon-32x32.png">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="manifest" href="site.webmanifest">
@@ -38,8 +38,8 @@
                     </div>
                     <div>
                         <div class="eyebrow">Features</div>
-                        <h1>A controlled approach to <span class="gradient">romanization</span></h1>
-                        <p>Textezi is built around predictable script conversion, deliberate scope, and product behavior that stays understandable to the user.</p>
+                        <h1>What Textezi actually <span class="gradient">ships today</span></h1>
+                        <p>These are the real app capabilities in the current Android product: launch languages, text entry points, automation modes, local correction memory, and the limits that keep conversion predictable.</p>
                     </div>
                 </div>
             </div>
@@ -48,28 +48,97 @@
         <section class="section">
             <div class="container feature-grid">
                 <div class="feature-card">
-                    <h3>Romanization only</h3>
-                    <p>Textezi changes the writing system, not the meaning. It is about romanization, not translation.</p>
+                    <h3>In-app converter</h3>
+                    <p>Paste text into Textezi, preview the Roman output immediately, then copy or share the result.</p>
                 </div>
                 <div class="feature-card">
-                    <h3>Selective language scope</h3>
-                    <p>Support expands carefully over time, and only the languages a user enables are eligible for conversion.</p>
+                    <h3>Share into Textezi</h3>
+                    <p>Textezi accepts Android shared text so you can send text into the app from other places.</p>
                 </div>
                 <div class="feature-card">
-                    <h3>Keep your keyboard</h3>
-                    <p>Textezi is designed to fit the user's existing typing and dictation workflow instead of replacing the keyboard.</p>
+                    <h3>Process Text action</h3>
+                    <p>Selected text can be routed through Android Process Text and returned as Roman output when the app has access.</p>
                 </div>
                 <div class="feature-card">
-                    <h3>Copy and share paths</h3>
-                    <p>Converted text is easy to copy, paste, and move into other apps when direct replacement is not the right path.</p>
+                    <h3>Auto mode</h3>
+                    <p>With accessibility enabled, Textezi can rewrite supported text directly in eligible editable fields and then show an Undo prompt.</p>
                 </div>
                 <div class="feature-card">
-                    <h3>Local-first direction</h3>
-                    <p>The product direction keeps core romanization on-device rather than pushing user text to hosted infrastructure.</p>
+                    <h3>Suggest only</h3>
+                    <p>Instead of rewriting immediately, Textezi can show a short-lived suggestion card and wait for explicit confirmation.</p>
                 </div>
                 <div class="feature-card">
-                    <h3>Automation with guardrails</h3>
-                    <p>Suggest mode, automation controls, and fallback paths are there so the workflow stays flexible instead of feeling forced.</p>
+                    <h3>Floating bubble</h3>
+                    <p>The optional bubble lets you reopen the app, switch between Auto and Suggest only, or hide the minimized control.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Selected languages only</h3>
+                    <p>Textezi changes only the languages you turn on. Disabled languages and unsupported scripts pass through unchanged.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Priority order</h3>
+                    <p>When multiple languages are enabled, their order in Settings becomes the priority order for conversion decisions.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Preferred spellings</h3>
+                    <p>Manual corrections can teach Textezi reusable preferred spellings on the device for future output.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Protected-field exclusions</h3>
+                    <p>Passwords, OTPs, phone fields, account-sensitive inputs, and similar protected forms are intentionally left alone.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Local-first converter</h3>
+                    <p>The core transliteration flow, language settings, and saved corrections stay local to the phone.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Soft trial and unlock</h3>
+                    <p>Each install begins with a soft 30-day trial, followed by a one-time permanent unlock through Google Play.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-label">Languages</div>
+                    <h2 class="section-title">Launch languages versus queued selections</h2>
+                    <p class="section-copy">The app already exposes a broader language list, but the public website should distinguish clearly between what is active now and what is still waiting on actual policy support.</p>
+                </div>
+                <div class="split-grid">
+                    <div class="split-card">
+                        <div class="section-label">Live now</div>
+                        <h3>Hindi and Punjabi</h3>
+                        <div class="scope-list">
+                            <div class="scope-item">Hindi converts from Devanagari.</div>
+                            <div class="scope-item">Punjabi converts from Gurmukhi.</div>
+                            <div class="scope-item">English, emojis, numbers, and unrelated text stay preserved.</div>
+                        </div>
+                    </div>
+                    <div class="split-card">
+                        <div class="section-label">Coming soon</div>
+                        <h3>Already visible in Settings</h3>
+                        <div class="scope-list">
+                            <div class="scope-item">Gujarati, Kannada, Bengali, Marathi, Tamil, Telugu, Japanese, and Chinese can already be selected.</div>
+                            <div class="scope-item">Selecting them now reserves their place in your language list and priority order.</div>
+                            <div class="scope-item">They still remain unchanged until their romanization policies actually ship.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section-card">
+                    <div class="section-label">Boundaries</div>
+                    <h2 class="section-title">What Textezi is and what it is not</h2>
+                    <p class="section-copy">Textezi is a romanization tool, not a translation layer and not a custom keyboard. It is built to fit Android text workflows while keeping user control and protected-field safety intact.</p>
+                    <div class="scope-list">
+                        <div class="scope-item">Textezi changes script, not meaning.</div>
+                        <div class="scope-item">It works with your existing keyboard instead of replacing it.</div>
+                        <div class="scope-item">Automation requires explicit Android permissions and stays away from protected inputs.</div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -86,9 +155,10 @@
             </div>
             <div class="footer-links">
                 <a href="index.html">Home</a>
+                <a href="features.html">Features</a>
                 <a href="who-is-this-for.html">Use Cases</a>
-                <a href="about.html">About</a>
                 <a href="faq.html">FAQ</a>
+                <a href="about.html">About</a>
                 <a href="support.html">Support</a>
                 <a href="privacy.html">Privacy</a>
                 <a href="terms.html">Terms</a>

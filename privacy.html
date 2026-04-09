@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy | Textezi</title>
-    <meta name="description" content="Textezi privacy principles and the local-first direction of the product.">
+    <meta name="description" content="Textezi privacy principles, local-first conversion, and accessibility boundaries.">
     <link rel="icon" type="image/png" href="favicon-32x32.png">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="manifest" href="site.webmanifest">
@@ -22,8 +22,8 @@
                 <a href="index.html">Home</a>
                 <a href="features.html">Features</a>
                 <a href="who-is-this-for.html">Use Cases</a>
-                <a href="about.html">About</a>
                 <a href="faq.html">FAQ</a>
+                <a href="about.html">About</a>
                 <a href="support.html">Support</a>
                 <a href="https://github.com/sugrowth/Textezi-Public" target="_blank" rel="noreferrer">GitHub</a>
             </div>
@@ -39,8 +39,8 @@
                     </div>
                     <div>
                         <div class="eyebrow">Privacy</div>
-                        <h1>Privacy-first by product <span class="gradient">direction</span></h1>
-                        <p>Textezi is designed so the core romanization flow can stay on-device and avoid unnecessary handling of user text.</p>
+                        <h1>Local-first by product <span class="gradient">design</span></h1>
+                        <p>The core Textezi converter is designed to run on-device. The app’s main romanization path, selected-language rules, and saved corrections are built to stay local to the phone.</p>
                     </div>
                 </div>
             </div>
@@ -49,12 +49,35 @@
         <section class="section">
             <div class="container legal-stack">
                 <div class="legal-card">
-                    <div class="section-label">Core principles</div>
+                    <div class="section-label">Core conversion</div>
                     <div class="legal-list">
-                        <div>User text should remain on the device for the core workflow.</div>
-                        <div>No custom keyboard is required for the product direction.</div>
-                        <div>Saved preferences and overrides should remain local in the MVP direction.</div>
-                        <div>Analytics, if added later, should avoid raw user text.</div>
+                        <div>Textezi’s main script-conversion flow is on-device.</div>
+                        <div>The app keeps the language the same and rewrites only supported script text into Roman output.</div>
+                        <div>Enabled languages, priority order, and transliteration behavior for the local core path stay on the device.</div>
+                    </div>
+                </div>
+                <div class="legal-card">
+                    <div class="section-label">Accessibility boundaries</div>
+                    <div class="legal-list">
+                        <div>Accessibility automation is optional and requires explicit Android permission plus an in-app disclosure step.</div>
+                        <div>Textezi is designed to act only on committed text in editable fields you are actively using.</div>
+                        <div>Passwords, OTPs, phone fields, account-sensitive inputs, and similar protected forms are intentionally excluded.</div>
+                    </div>
+                </div>
+                <div class="legal-card">
+                    <div class="section-label">Local saved data</div>
+                    <div class="legal-list">
+                        <div>Selected languages, automation preferences, floating bubble settings, and disclosure acceptance are stored locally on the device.</div>
+                        <div>Manual corrections and learned preferred spellings stay on the device as part of the app’s quality loop.</div>
+                        <div>The current access model also stores local device state for the soft 30-day trial and permanent unlock status.</div>
+                    </div>
+                </div>
+                <div class="legal-card">
+                    <div class="section-label">External services</div>
+                    <div class="legal-list">
+                        <div>Google Play billing is used for the one-time permanent unlock where billing is configured and available.</div>
+                        <div>The public website and GitHub support links are external services outside the core converter itself.</div>
+                        <div>The app may include internet-related integrations for product services, but the core converter does not require a backend round-trip to work.</div>
                     </div>
                 </div>
             </div>
@@ -74,8 +97,10 @@
                 <a href="index.html">Home</a>
                 <a href="features.html">Features</a>
                 <a href="who-is-this-for.html">Use Cases</a>
-                <a href="about.html">About</a>
                 <a href="faq.html">FAQ</a>
+                <a href="about.html">About</a>
+                <a href="support.html">Support</a>
+                <a href="privacy.html">Privacy</a>
                 <a href="terms.html">Terms</a>
                 <a href="https://github.com/sugrowth/Textezi-Public" target="_blank" rel="noreferrer">GitHub</a>
             </div>

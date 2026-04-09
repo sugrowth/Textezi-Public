@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FAQ | Textezi</title>
-    <meta name="description" content="Frequently asked questions about Textezi product scope, language support, pricing, privacy, and automation.">
+    <meta name="description" content="Frequently asked questions about Textezi pricing, launch languages, automation, privacy, and support.">
     <link rel="icon" type="image/png" href="favicon-32x32.png">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="manifest" href="site.webmanifest">
@@ -38,8 +38,8 @@
                     </div>
                     <div>
                         <div class="eyebrow">FAQ</div>
-                        <h1>Questions about scope, privacy, and <span class="gradient">workflow</span></h1>
-                        <p>Straight answers about what Textezi does today and what it is intentionally not trying to do.</p>
+                        <h1>Questions about launch scope, privacy, and <span class="gradient">automation</span></h1>
+                        <p>These answers are aligned with the current Android app: what converts today, how access works, what accessibility automation can touch, and where to report issues.</p>
                     </div>
                 </div>
             </div>
@@ -51,11 +51,15 @@
                     <div class="faq-category-label">Features &amp; Pricing</div>
                     <div class="faq-item">
                         <button class="faq-question"><span>What does Textezi do?</span><span>+</span></button>
-                        <div class="faq-answer">Textezi converts text from supported scripts into Roman output while preserving the original language. It changes how text is written, not what it means.</div>
+                        <div class="faq-answer">Textezi converts supported scripts into Roman writing. It does not translate the meaning. It keeps the language the same and changes only the script.</div>
                     </div>
                     <div class="faq-item">
-                        <button class="faq-question"><span>How does pricing work?</span><span>+</span></button>
-                        <div class="faq-answer">Textezi includes a soft 30-day trial on the device, followed by a one-time permanent unlock through Google Play. Users can unlock early at any time.</div>
+                        <button class="faq-question"><span>How does the trial work?</span><span>+</span></button>
+                        <div class="faq-answer">Textezi includes a soft 30-day trial on the device. You can buy the permanent unlock at any time, and after unlock the trial limit no longer matters.</div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question"><span>Is Textezi a subscription?</span><span>+</span></button>
+                        <div class="faq-answer">No recurring subscription is described in the current app flow. The access model is a soft 30-day trial followed by a one-time permanent unlock through Google Play.</div>
                     </div>
                 </div>
 
@@ -63,11 +67,19 @@
                     <div class="faq-category-label">Languages &amp; Conversion</div>
                     <div class="faq-item">
                         <button class="faq-question"><span>Which languages work today?</span><span>+</span></button>
-                        <div class="faq-answer">Textezi is expanding carefully. The app shows the currently supported languages, and only the ones you enable are eligible for conversion.</div>
+                        <div class="faq-answer">Hindi and Punjabi are the active launch languages today. Other languages can be selected and prioritized already, but they stay unchanged until support ships.</div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question"><span>What happens if a language is not enabled?</span><span>+</span></button>
+                        <div class="faq-answer">Textezi only converts languages that are both supported and enabled. If a language is not enabled, that text should pass through unchanged.</div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question"><span>What if I select a language that is still coming soon?</span><span>+</span></button>
+                        <div class="faq-answer">Textezi can already show future languages in Settings, but they remain unchanged until their actual romanization policies are available in the app.</div>
                     </div>
                     <div class="faq-item">
                         <button class="faq-question"><span>Does Textezi translate?</span><span>+</span></button>
-                        <div class="faq-answer">No. Textezi is about romanization, not translation. The language stays the same. Only the script changes.</div>
+                        <div class="faq-answer">No. Textezi preserves the language and rewrites only the script into Roman output.</div>
                     </div>
                 </div>
 
@@ -75,11 +87,19 @@
                     <div class="faq-category-label">Automation</div>
                     <div class="faq-item">
                         <button class="faq-question"><span>Do I need a custom keyboard?</span><span>+</span></button>
-                        <div class="faq-answer">No. Textezi is designed to sit alongside the user&apos;s existing keyboard flow, not replace it.</div>
+                        <div class="faq-answer">No. Textezi is designed to work with your existing keyboard, especially normal Android typing flows, instead of replacing the keyboard.</div>
                     </div>
                     <div class="faq-item">
-                        <button class="faq-question"><span>What is the floating bubble for?</span><span>+</span></button>
-                        <div class="faq-answer">The floating bubble is an optional control for reopening Textezi or adjusting automation behavior more quickly when overlay permission is enabled.</div>
+                        <button class="faq-question"><span>What are Auto and Suggest only?</span><span>+</span></button>
+                        <div class="faq-answer">Auto rewrites supported text directly in eligible fields. Suggest only shows a short-lived prompt first, and the text changes only if you accept the Textezi suggestion.</div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question"><span>What is the floating bubble?</span><span>+</span></button>
+                        <div class="faq-answer">The floating bubble is the optional quick control for minimized mode. It lets you reopen Textezi, switch automation mode, or hide the bubble without hunting through settings.</div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question"><span>Will Textezi touch passwords or OTPs?</span><span>+</span></button>
+                        <div class="faq-answer">No. Protected inputs such as passwords, OTPs, login fields, phone fields, and similar account-sensitive forms are intentionally excluded from automation.</div>
                     </div>
                 </div>
 
@@ -87,11 +107,15 @@
                     <div class="faq-category-label">Privacy &amp; Support</div>
                     <div class="faq-item">
                         <button class="faq-question"><span>Does Textezi send my text anywhere?</span><span>+</span></button>
-                        <div class="faq-answer">The product direction is local-first. Core romanization behavior and user preferences are intended to stay on-device rather than be sent to a hosted backend.</div>
+                        <div class="faq-answer">The core workflow is on-device. Text, language settings, saved corrections, and conversion behavior stay local on the phone for the main romanization path.</div>
                     </div>
                     <div class="faq-item">
-                        <button class="faq-question"><span>Where do I report bugs or ask for features?</span><span>+</span></button>
-                        <div class="faq-answer">Use the public GitHub repository and issue tracker: <a href="https://github.com/sugrowth/Textezi-Public/issues/new" target="_blank" rel="noreferrer">sugrowth/Textezi-Public/issues/new</a>.</div>
+                        <button class="faq-question"><span>What does accessibility automation actually look at?</span><span>+</span></button>
+                        <div class="faq-answer">Textezi is designed to act only on committed text in editable fields that you are actively using, and only after the accessibility disclosure is accepted and the relevant Android permissions are enabled.</div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question"><span>Where do I report issues or follow updates?</span><span>+</span></button>
+                        <div class="faq-answer">Use the public GitHub repository and issue tracker at <a href="https://github.com/sugrowth/Textezi-Public/issues/new" target="_blank" rel="noreferrer">sugrowth/Textezi-Public/issues/new</a>. That repository holds the public website and user-facing docs.</div>
                     </div>
                 </div>
             </div>
@@ -111,6 +135,7 @@
                 <a href="index.html">Home</a>
                 <a href="features.html">Features</a>
                 <a href="who-is-this-for.html">Use Cases</a>
+                <a href="faq.html">FAQ</a>
                 <a href="about.html">About</a>
                 <a href="support.html">Support</a>
                 <a href="privacy.html">Privacy</a>
