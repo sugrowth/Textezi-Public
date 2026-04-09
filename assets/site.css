@@ -354,6 +354,12 @@ main {
     margin-bottom: 16px;
 }
 
+.hero-card:not(.hero-home-card) h1 {
+    max-width: 14ch;
+    font-size: clamp(2rem, 3.1vw, 2.95rem);
+    line-height: 1.02;
+}
+
 .hero-home-card h1 {
     max-width: 10.5ch;
     font-size: clamp(2.15rem, 3.7vw, 3.35rem);
