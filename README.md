@@ -23,7 +23,7 @@
 - Converts supported scripts into easy Roman writing
 - Keeps the same language instead of translating it
 - Works with the user's existing keyboard workflow
-- Launches with Hindi and Punjabi while staying general by design
+- Launches with a small initial language set while staying general by design
 - Runs with an on-device, privacy-first approach
 
 ## Current direction

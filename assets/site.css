@@ -61,10 +61,10 @@ body::after {
 
 body::before {
     background-image:
-        linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
-    background-size: 72px 72px;
-    opacity: 0.2;
+        linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+    background-size: 88px 88px;
+    opacity: 0.12;
     mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7), transparent 82%);
 }
 
@@ -87,7 +87,7 @@ img {
 }
 
 .container {
-    width: min(1140px, calc(100vw - 40px));
+    width: min(1040px, calc(100vw - 40px));
     margin: 0 auto;
 }
 
@@ -101,7 +101,7 @@ nav {
 }
 
 .nav-inner {
-    min-height: 82px;
+    min-height: 72px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -118,23 +118,23 @@ nav {
 }
 
 .brand {
-    font-size: 1.18rem;
+    font-size: 1.08rem;
 }
 
 .brand img,
 .footer-brand img {
-    width: 48px;
-    height: 48px;
-    padding: 4px;
-    border-radius: 18px;
+    width: 42px;
+    height: 42px;
+    padding: 3px;
+    border-radius: 15px;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.02));
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
 }
 
 .footer-brand img {
-    width: 40px;
-    height: 40px;
-    border-radius: 14px;
+    width: 36px;
+    height: 36px;
+    border-radius: 13px;
 }
 
 .nav-links {
@@ -143,7 +143,7 @@ nav {
     flex-wrap: wrap;
     gap: 14px;
     color: var(--text-muted);
-    font-size: 0.96rem;
+    font-size: 0.92rem;
 }
 
 .nav-links a {
@@ -161,10 +161,10 @@ nav {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    min-height: 48px;
-    padding: 12px 18px;
+    min-height: 44px;
+    padding: 10px 16px;
     border-radius: 999px;
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     font-weight: 800;
     transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
 }
@@ -191,7 +191,7 @@ main {
 }
 
 .hero {
-    padding: 88px 0 40px;
+    padding: 68px 0 28px;
 }
 
 .hero-card,
@@ -242,15 +242,15 @@ main {
 .hero-card {
     display: grid;
     grid-template-columns: 112px 1fr;
-    gap: 28px;
-    padding: 30px;
-    border-radius: 34px;
+    gap: 22px;
+    padding: 24px;
+    border-radius: 28px;
     box-shadow: var(--shadow-xl);
     animation: riseIn 0.7s ease both;
 }
 
 .hero-home-card {
-    grid-template-columns: minmax(0, 1.08fr) minmax(320px, 0.92fr);
+    grid-template-columns: minmax(0, 1.08fr) minmax(280px, 0.92fr);
     background: var(--gradient-hero);
 }
 
@@ -266,36 +266,42 @@ main {
 }
 
 .hero-icon {
-    width: 112px;
-    height: 112px;
-    padding: 10px;
-    border-radius: 28px;
+    width: 82px;
+    height: 82px;
+    padding: 6px;
+    border-radius: 22px;
     background:
         radial-gradient(circle at 50% 35%, rgba(255, 255, 255, 0.22), transparent 54%),
         rgba(255, 255, 255, 0.05);
     box-shadow:
         inset 0 1px 0 rgba(255, 255, 255, 0.08),
-        0 18px 44px rgba(0, 0, 0, 0.26);
+        0 14px 36px rgba(0, 0, 0, 0.22);
 }
 
 .hero-icon img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    border-radius: 22px;
+    object-fit: contain;
+    border-radius: 18px;
+}
+
+.hero-mark {
+    width: 70px;
+    height: 70px;
+    padding: 4px;
 }
 
 .eyebrow {
     display: inline-flex;
     align-items: center;
     gap: 10px;
-    margin-bottom: 14px;
-    padding: 9px 15px;
+    margin-bottom: 12px;
+    padding: 8px 13px;
     border-radius: 999px;
     background: rgba(255, 255, 255, 0.07);
     border: 1px solid rgba(255, 255, 255, 0.08);
     color: var(--mist);
-    font-size: 0.82rem;
+    font-size: 0.74rem;
     font-weight: 800;
     letter-spacing: 0.08em;
     text-transform: uppercase;
@@ -311,13 +317,13 @@ main {
 .hero h1,
 .page-hero h1 {
     max-width: 12ch;
-    font-size: clamp(2.9rem, 6vw, 5.4rem);
-    line-height: 0.9;
-    margin-bottom: 18px;
+    font-size: clamp(2.4rem, 5.2vw, 4.6rem);
+    line-height: 0.94;
+    margin-bottom: 14px;
 }
 
 .section-title {
-    font-size: clamp(1.95rem, 4vw, 3rem);
+    font-size: clamp(1.7rem, 3.5vw, 2.5rem);
     margin-bottom: 12px;
 }
 
@@ -340,14 +346,14 @@ main {
 .legal-list,
 .footer-copy {
     color: var(--text-muted);
-    font-size: 1.02rem;
+    font-size: 0.97rem;
 }
 
 .cta-row {
     display: flex;
     flex-wrap: wrap;
     gap: 14px;
-    margin-top: 24px;
+    margin-top: 20px;
 }
 
 .hero-tags,
@@ -362,7 +368,7 @@ main {
 }
 
 .hero-tags {
-    margin-top: 22px;
+    margin-top: 18px;
     grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
@@ -372,22 +378,22 @@ main {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 13px 15px;
-    border-radius: 18px;
+    padding: 11px 13px;
+    border-radius: 15px;
     background: rgba(255, 255, 255, 0.05);
     border: 1px solid rgba(255, 255, 255, 0.07);
     color: var(--text);
-    font-size: 0.95rem;
+    font-size: 0.88rem;
     font-weight: 700;
     text-align: center;
 }
 
 .script-stage {
     display: grid;
-    gap: 18px;
+    gap: 14px;
     height: 100%;
-    padding: 24px;
-    border-radius: 30px;
+    padding: 18px;
+    border-radius: 24px;
     background:
         radial-gradient(circle at top right, rgba(246, 161, 74, 0.12), transparent 32%),
         radial-gradient(circle at bottom left, rgba(243, 111, 75, 0.11), transparent 28%),
@@ -400,7 +406,7 @@ main {
     justify-content: space-between;
     gap: 16px;
     color: var(--mist);
-    font-size: 0.82rem;
+    font-size: 0.74rem;
     font-weight: 800;
     letter-spacing: 0.08em;
     text-transform: uppercase;
@@ -409,7 +415,7 @@ main {
 .script-band {
     display: flex;
     flex-wrap: wrap;
-    gap: 12px;
+    gap: 10px;
 }
 
 .script-chip.active {
@@ -419,11 +425,12 @@ main {
 
 .launch-strip {
     display: grid;
-    gap: 8px;
-    padding: 18px;
-    border-radius: 22px;
+    gap: 6px;
+    padding: 15px;
+    border-radius: 18px;
     background: rgba(255, 255, 255, 0.04);
     color: var(--mist);
+    font-size: 0.92rem;
 }
 
 .launch-strip strong {
@@ -431,11 +438,11 @@ main {
 }
 
 .section {
-    padding: 18px 0 52px;
+    padding: 10px 0 42px;
 }
 
 .section-header {
-    margin-bottom: 26px;
+    margin-bottom: 20px;
 }
 
 .section-label,
@@ -453,14 +460,14 @@ main {
 .section-card,
 .legal-card,
 .split-card {
-    padding: 26px;
-    border-radius: 30px;
+    padding: 22px;
+    border-radius: 24px;
 }
 
 .promise-card {
-    margin-top: 18px;
-    padding: 18px 20px;
-    border-radius: 22px;
+    margin-top: 16px;
+    padding: 16px 18px;
+    border-radius: 18px;
     background: rgba(255, 255, 255, 0.05);
     border: 1px solid rgba(255, 255, 255, 0.07);
     color: var(--text);
@@ -478,8 +485,8 @@ main {
 .support-card,
 .link-card,
 .signal-card {
-    padding: 22px;
-    border-radius: 26px;
+    padding: 18px;
+    border-radius: 22px;
     background: var(--gradient-surface);
 }
 
@@ -500,17 +507,17 @@ main {
 }
 
 .signal-grid {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
 }
 
 .signal-card {
-    min-height: 170px;
+    min-height: 150px;
 }
 
 .signal-card h3 {
     margin-bottom: 12px;
     font-family: var(--font-display);
-    font-size: 1.38rem;
+    font-size: 1.2rem;
     letter-spacing: -0.02em;
 }
 
@@ -540,11 +547,12 @@ main {
 }
 
 .scope-item {
-    padding: 14px 16px;
-    border-radius: 18px;
+    padding: 12px 14px;
+    border-radius: 16px;
     background: rgba(255, 255, 255, 0.04);
     border: 1px solid rgba(255, 255, 255, 0.06);
     color: var(--mist);
+    font-size: 0.94rem;
 }
 
 .faq-list {
@@ -569,7 +577,7 @@ main {
     font: inherit;
     font-weight: 700;
     text-align: left;
-    padding: 18px 22px;
+    padding: 16px 20px;
     display: flex;
     justify-content: space-between;
     gap: 16px;
@@ -604,7 +612,7 @@ main {
 }
 
 footer {
-    padding: 32px 0 52px;
+    padding: 24px 0 42px;
 }
 
 .footer-inner {
@@ -676,7 +684,7 @@ footer {
 
     .hero-card {
         grid-template-columns: 1fr;
-        padding: 24px;
+        padding: 22px;
     }
 
     .hero h1,
@@ -695,7 +703,7 @@ footer {
     }
 
     .hero {
-        padding: 72px 0 28px;
+        padding: 56px 0 22px;
     }
 
     .hero-tags,
