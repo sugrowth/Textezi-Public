@@ -1,0 +1,20 @@
+{
+  "name": "Textezi",
+  "short_name": "Textezi",
+  "start_url": "/Textezi-Public/",
+  "display": "standalone",
+  "background_color": "#0B1730",
+  "theme_color": "#0B1730",
+  "icons": [
+    {
+      "src": "/Textezi-Public/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/Textezi-Public/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ]
+}

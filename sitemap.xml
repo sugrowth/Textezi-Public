@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>index.html</loc></url>
-  <url><loc>about.html</loc></url>
-  <url><loc>features.html</loc></url>
-  <url><loc>faq.html</loc></url>
-  <url><loc>support.html</loc></url>
-  <url><loc>who-is-this-for.html</loc></url>
-  <url><loc>blog.html</loc></url>
-  <url><loc>blogs/getting-started-with-textezi.html</loc></url>
-  <url><loc>privacy.html</loc></url>
-  <url><loc>terms.html</loc></url>
+  <url><loc>https://sugrowth.github.io/Textezi-Public/index.html</loc></url>
+  <url><loc>https://sugrowth.github.io/Textezi-Public/about.html</loc></url>
+  <url><loc>https://sugrowth.github.io/Textezi-Public/features.html</loc></url>
+  <url><loc>https://sugrowth.github.io/Textezi-Public/faq.html</loc></url>
+  <url><loc>https://sugrowth.github.io/Textezi-Public/support.html</loc></url>
+  <url><loc>https://sugrowth.github.io/Textezi-Public/who-is-this-for.html</loc></url>
+  <url><loc>https://sugrowth.github.io/Textezi-Public/blog.html</loc></url>
+  <url><loc>https://sugrowth.github.io/Textezi-Public/blogs/getting-started-with-textezi.html</loc></url>
+  <url><loc>https://sugrowth.github.io/Textezi-Public/privacy.html</loc></url>
+  <url><loc>https://sugrowth.github.io/Textezi-Public/terms.html</loc></url>
 </urlset>

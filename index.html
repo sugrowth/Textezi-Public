@@ -3,16 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Textezi | Romanize your text, not its meaning</title>
-    <meta name="description" content="Textezi turns supported scripts into easy Roman writing while keeping the same language. Start with Hindi and Punjabi, keep your keyboard, and copy or share the result anywhere.">
+    <title>Textezi | Keep the language, change the script</title>
+    <meta name="description" content="Textezi turns supported scripts into easy Roman writing while keeping the same language. Keep your keyboard, convert selected languages, and copy or share the result anywhere.">
+    <link rel="canonical" href="https://sugrowth.github.io/Textezi-Public/">
+    <link rel="icon" type="image/png" href="favicon-32x32.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="manifest" href="site.webmanifest">
     <meta property="og:title" content="Textezi">
-    <meta property="og:description" content="Write in Hindi or Punjabi. Textezi changes it into easy Roman Hindi or Roman Punjabi.">
-    <meta property="og:image" content="https://raw.githubusercontent.com/sugrowth/Textezi-Public/main/assets/app-icon.png">
+    <meta property="og:description" content="Keep the language, change the script. Textezi turns supported selected scripts into easy Roman writing.">
+    <meta property="og:image" content="https://sugrowth.github.io/Textezi-Public/social-preview.png">
     <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sugrowth.github.io/Textezi-Public/">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Textezi">
-    <meta name="twitter:description" content="Romanize your text, not its meaning.">
-    <meta name="twitter:image" content="https://raw.githubusercontent.com/sugrowth/Textezi-Public/main/assets/app-icon.png">
+    <meta name="twitter:description" content="Keep the language, change the script.">
+    <meta name="twitter:image" content="https://sugrowth.github.io/Textezi-Public/social-preview.png">
     <meta name="theme-color" content="#0B1730">
     <link rel="stylesheet" href="assets/site.css">
 </head>
@@ -37,20 +42,45 @@
     <main>
         <section class="hero">
             <div class="container">
-                <div class="hero-card">
-                    <div class="hero-icon">
-                        <img src="assets/app-icon.png" alt="Textezi icon">
-                    </div>
-                    <div>
-                        <div class="eyebrow">Your romanization tool</div>
+                <div class="hero-card hero-home-card">
+                    <div class="hero-copy">
+                        <div class="eyebrow">Keep the language, change the script</div>
                         <h1>Write in your language. <span class="gradient">Read it in Roman.</span></h1>
-                        <p>Textezi changes supported scripts into easy Roman writing while keeping the same language. Hindi becomes Roman Hindi. Punjabi becomes Roman Punjabi.</p>
+                        <p>Textezi turns supported selected scripts into easy Roman writing while keeping the same language. It is designed as a general romanization product, with launch coverage that expands over time instead of a one-language-only tool.</p>
+
+                        <div class="cta-row">
+                            <a class="nav-cta" href="features.html">See what Textezi covers</a>
+                            <a class="ghost-cta" href="who-is-this-for.html">Who it is for</a>
+                        </div>
 
                         <div class="hero-tags">
-                            <div class="tag">Hindi → Roman Hindi</div>
-                            <div class="tag">Punjabi → Roman Punjabi</div>
+                            <div class="tag">Selected languages only</div>
+                            <div class="tag">Same language, Roman script</div>
                             <div class="tag">Keep your keyboard</div>
-                            <div class="tag">Copy or share anywhere</div>
+                            <div class="tag">Copy, share, or automate</div>
+                        </div>
+                    </div>
+                    <div class="hero-display">
+                        <div class="script-stage">
+                            <div class="hero-icon">
+                                <img src="assets/app-icon.png" alt="Textezi icon">
+                            </div>
+                            <div class="script-stage-top">
+                                <span>Selected input</span>
+                                <span>Roman output</span>
+                            </div>
+                            <div class="script-band">
+                                <div class="script-chip active">Language-aware</div>
+                                <div class="script-chip active">User-selected</div>
+                                <div class="script-chip">Unselected stays untouched</div>
+                                <div class="script-chip">No translation</div>
+                            </div>
+                            <div class="launch-strip">
+                                <strong>Launch coverage today:</strong>
+                                <span>Hindi and Punjabi.</span>
+                                <strong>Product direction:</strong>
+                                <span>General, selected-language romanization that can expand cleanly.</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -60,22 +90,26 @@
         <section class="section">
             <div class="container">
                 <div class="section-header">
-                    <div class="section-label">How it works</div>
-                    <h2 class="section-title">Simple by design</h2>
-                    <p class="section-copy">Textezi is about script conversion, not translation. The words stay in the same language. Only the writing changes.</p>
+                    <div class="section-label">What It Covers</div>
+                    <h2 class="section-title">Built around control, not guesswork</h2>
+                    <p class="section-copy">The public product is not just a converter box. Textezi includes language selection, automation controls, fallback flows, on-device preferences, and a clear boundary around what should stay unchanged.</p>
                 </div>
-                <div class="three-up">
-                    <div class="mini-card">
-                        <h3>1. Type or paste</h3>
-                        <p>Use your normal keyboard or paste text you already have.</p>
+                <div class="signal-grid">
+                    <div class="signal-card">
+                        <h3>Selected-language conversion</h3>
+                        <p>Textezi converts only the supported languages you turn on. If a language is off or unsupported, it stays exactly as it is.</p>
                     </div>
-                    <div class="mini-card">
-                        <h3>2. Textezi converts it</h3>
-                        <p>Supported scripts are rewritten into easy Roman writing.</p>
+                    <div class="signal-card">
+                        <h3>Automation when you want it</h3>
+                        <p>Use manual conversion, Suggest only, or Accessibility-powered automation depending on how hands-on you want the workflow to be.</p>
                     </div>
-                    <div class="mini-card">
-                        <h3>3. Copy or share</h3>
-                        <p>Use the converted text in chat, notes, messages, and anywhere else.</p>
+                    <div class="signal-card">
+                        <h3>On-device by default</h3>
+                        <p>The core romanization flow, preferences, and learned corrections stay local to the device instead of depending on app-hosted infrastructure.</p>
+                    </div>
+                    <div class="signal-card">
+                        <h3>Real fallback paths</h3>
+                        <p>Copy, share, and Process Text flows exist alongside in-place automation so Textezi is still useful when a field cannot be rewritten directly.</p>
                     </div>
                 </div>
             </div>
@@ -83,11 +117,30 @@
 
         <section class="section">
             <div class="container">
-                <div class="section-card">
-                    <div class="section-label">Current scope</div>
-                    <h2 class="section-title">Hindi and Punjabi first</h2>
-                    <p class="section-copy">Textezi currently focuses on Hindi and Punjabi. More languages can be added later, but only enabled and supported language policies should convert.</p>
-                    <div class="promise-card">No translation. No custom keyboard. No cloud-gated core workflow.</div>
+                <div class="section-header">
+                    <div class="section-label">General By Design</div>
+                    <h2 class="section-title">Textezi is not tied to one language family</h2>
+                    <p class="section-copy">The current launch scope is deliberately smaller than the long-term system. The product model is general: choose languages, apply romanization policies, and leave everything else alone.</p>
+                </div>
+                <div class="split-grid">
+                    <div class="split-card">
+                        <div class="section-label">Today</div>
+                        <h3>Launch coverage</h3>
+                        <div class="scope-list">
+                            <div class="scope-item">Hindi and Punjabi are the first supported languages.</div>
+                            <div class="scope-item">Those launch languages are examples of coverage, not the whole identity of the product.</div>
+                            <div class="scope-item">Public messaging stays general unless launch coverage needs to be stated explicitly.</div>
+                        </div>
+                    </div>
+                    <div class="split-card">
+                        <div class="section-label">Direction</div>
+                        <h3>What the system is built for</h3>
+                        <div class="scope-list">
+                            <div class="scope-item">Selected-language support that can grow language by language.</div>
+                            <div class="scope-item">Script conversion without translation, keyboard replacement, or cloud-gated core usage.</div>
+                            <div class="scope-item">A product that works for cross-script communication, not just one launch audience.</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -96,12 +149,16 @@
             <div class="container">
                 <div class="section-header">
                     <div class="section-label">Quick links</div>
-                    <h2 class="section-title">Public docs and support</h2>
+                    <h2 class="section-title">Public docs, support, and scope</h2>
                 </div>
                 <div class="three-up">
                     <a class="link-card" href="about.html">
                         <div class="link-label">About</div>
                         <div class="link-title">Read the product story and public links</div>
+                    </a>
+                    <a class="link-card" href="who-is-this-for.html">
+                        <div class="link-label">Audience</div>
+                        <div class="link-title">See who Textezi is meant for and where it fits best</div>
                     </a>
                     <a class="link-card" href="faq.html">
                         <div class="link-label">FAQ</div>

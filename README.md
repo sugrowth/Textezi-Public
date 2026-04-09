@@ -3,7 +3,7 @@
 <div align="center">
   <img src="assets/app-icon.png" alt="Textezi App Icon" width="120">
 
-  <h3>Romanize your text, not its meaning</h3>
+  <h3>Keep the language, change the script</h3>
 
   <p>
     <strong>Textezi</strong> is a romanization tool designed to turn supported scripts into easy Roman writing while keeping the same language.
@@ -23,7 +23,7 @@
 - Converts supported scripts into easy Roman writing
 - Keeps the same language instead of translating it
 - Works with the user's existing keyboard workflow
-- Starts with Hindi and Punjabi
+- Launches with Hindi and Punjabi while staying general by design
 - Runs with an on-device, privacy-first approach
 
 ## Current direction
