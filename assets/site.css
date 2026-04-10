@@ -179,7 +179,17 @@ nav {
     color: var(--text);
 }
 
+.nav-links a.active {
+    color: var(--text);
+}
+
 .nav-links a:hover::after {
+    transform: scaleX(1);
+}
+
+.nav-links a.active::after {
+    height: 2px;
+    background: rgba(246, 161, 74, 1);
     transform: scaleX(1);
 }
 
