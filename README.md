@@ -3,10 +3,10 @@
 <div align="center">
   <img src="assets/app-icon.png" alt="Textezi App Icon" width="120">
 
-  <h3>Keep the language, change the script</h3>
+  <h3>Keep the language, write it in English letters</h3>
 
   <p>
-    <strong>Textezi</strong> is a romanization tool designed to turn supported scripts into easy Roman writing while keeping the same language.
+    <strong>Textezi</strong> is a consumer tool designed to help people keep the same language while showing it in easy English letters.
   </p>
 
   <p><em>This is the public website and documentation repository for Textezi.</em></p>
@@ -20,7 +20,7 @@
 
 ## What Textezi does
 
-- Converts supported scripts into easy Roman writing
+- Converts supported text into easy English-letter writing
 - Keeps the same language instead of translating it
 - Works with the user's existing keyboard workflow
 - Launches with a small initial language set while staying general by design
@@ -28,7 +28,7 @@
 
 ## Current direction
 
-- Mobile-first romanization product
+- Mobile-first language-to-English-letter product
 - Gboard-compatible workflow
 - No custom keyboard
 - Accessibility-powered in-place conversion as the main path
