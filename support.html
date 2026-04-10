@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Support | Textezi</title>
-    <meta name="description" content="Support, issues, and feature requests for Textezi.">
+    <meta name="description" content="Textezi support for conversion issues, language requests, and Android workflow bugs.">
     <link rel="icon" type="image/png" href="favicon-32x32.png">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="manifest" href="site.webmanifest">
@@ -19,9 +19,12 @@
                 <span>Textezi</span>
             </a>
             <div class="nav-links">
-                <a href="about.html">About</a>
+                <a href="index.html">Home</a>
+                <a href="features.html">Features</a>
+                <a href="who-is-this-for.html">Use Cases</a>
                 <a href="faq.html">FAQ</a>
-                <a href="https://github.com/sugrowth/Textezi-Public" target="_blank">GitHub</a>
+                <a href="about.html">About</a>
+                <a href="https://github.com/sugrowth/Textezi-Public" target="_blank" rel="noreferrer">GitHub</a>
             </div>
         </div>
     </nav>
@@ -29,14 +32,37 @@
     <main>
         <section class="hero">
             <div class="container">
-                <div class="hero-card">
-                    <div class="hero-icon">
-                        <img src="assets/app-icon.png" alt="Textezi icon">
+                <div class="hero-card page-hero-card">
+                    <div class="page-hero-main">
+                        <div class="hero-icon">
+                            <img src="assets/app-icon.png" alt="Textezi icon">
+                        </div>
+                        <div class="page-hero-copy">
+                            <div class="eyebrow">Support</div>
+                            <h1>Support for real product use, not <span class="gradient">guesswork</span></h1>
+                            <p>If conversion breaks, automation behaves oddly, or a language is missing, the fastest way to get help is to report the exact app flow and a safe example.</p>
+                        </div>
                     </div>
-                    <div>
-                        <div class="eyebrow">Support</div>
-                        <h1>Need <span class="gradient">help?</span></h1>
-                        <p>The public repo is the main user-facing support surface for Textezi right now.</p>
+                    <div class="hero-panel">
+                        <div class="hero-panel-title">Best report includes</div>
+                        <div class="hero-panel-grid">
+                            <div class="hero-point">
+                                <strong>Where it happened</strong>
+                                <span>Tell us whether the issue was in the converter, share flow, Process Text, Auto, or Suggest only.</span>
+                            </div>
+                            <div class="hero-point">
+                                <strong>Language setup</strong>
+                                <span>Include the enabled languages and their priority order when it matters.</span>
+                            </div>
+                            <div class="hero-point">
+                                <strong>Device details</strong>
+                                <span>Android version, device model, and app version help narrow it down quickly.</span>
+                            </div>
+                            <div class="hero-point">
+                                <strong>Safe example</strong>
+                                <span>A short non-sensitive sample or screenshot is usually the fastest path to a fix.</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -44,17 +70,50 @@
 
         <section class="section">
             <div class="container support-grid">
-                <a class="support-card" href="https://github.com/sugrowth/Textezi-Public/issues/new?labels=bug" target="_blank">
-                    <h3>Report a bug</h3>
-                    <p>Open a GitHub issue with steps, screenshots, and what went wrong.</p>
+                <a class="support-card" href="https://github.com/sugrowth/Textezi-Public/issues/new?labels=bug" target="_blank" rel="noreferrer">
+                    <h3>Report a product bug</h3>
+                    <p>Open an issue if romanization, accessibility automation, billing, or a specific Android flow is behaving incorrectly.</p>
                 </a>
-                <a class="support-card" href="https://github.com/sugrowth/Textezi-Public/issues/new?labels=enhancement" target="_blank">
-                    <h3>Request a feature</h3>
-                    <p>Suggest languages, workflow improvements, or UI changes.</p>
+                <a class="support-card" href="https://github.com/sugrowth/Textezi-Public/issues/new?labels=enhancement" target="_blank" rel="noreferrer">
+                    <h3>Request a language or workflow improvement</h3>
+                    <p>Suggest new language support, automation refinements, copy improvements, or better Android workflow coverage.</p>
                 </a>
-                <a class="support-card" href="https://github.com/sugrowth/Textezi-Public" target="_blank">
-                    <h3>Browse the repo</h3>
-                    <p>See public pages, updates, and issue discussions in one place.</p>
+                <a class="support-card" href="https://github.com/sugrowth/Textezi-Public/issues" target="_blank" rel="noreferrer">
+                    <h3>Review known issues</h3>
+                    <p>See current feedback, fixes, and public discussion around launch scope, bugs, and edge cases.</p>
+                </a>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section-card">
+                    <div class="section-label">Helpful reports</div>
+                    <h2 class="section-title">What to include when something breaks</h2>
+                    <p class="section-copy">The best support requests describe the product state around the bug, not just the symptom you saw on screen.</p>
+                    <div class="scope-list">
+                        <div class="scope-item">Your Android version, device model, and the app version or build if visible.</div>
+                        <div class="scope-item">Whether the issue happened in the home converter, Android share flow, Process Text, Auto mode, or Suggest only.</div>
+                        <div class="scope-item">Which languages were selected, and whether the floating bubble or accessibility automation was enabled.</div>
+                        <div class="scope-item">A safe sample input, screenshot, or screen recording when the text is not sensitive.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container three-up">
+                <a class="link-card" href="features.html">
+                    <div class="link-label">Features</div>
+                    <div class="link-title">Check the current launch scope before filing a support request</div>
+                </a>
+                <a class="link-card" href="faq.html">
+                    <div class="link-label">FAQ</div>
+                    <div class="link-title">See answers on trial limits, protected fields, and live language support</div>
+                </a>
+                <a class="link-card" href="privacy.html">
+                    <div class="link-label">Privacy</div>
+                    <div class="link-title">Review what stays local and how accessibility automation is bounded</div>
                 </a>
             </div>
         </section>
@@ -71,11 +130,14 @@
             </div>
             <div class="footer-links">
                 <a href="index.html">Home</a>
-                <a href="about.html">About</a>
+                <a href="features.html">Features</a>
+                <a href="who-is-this-for.html">Use Cases</a>
                 <a href="faq.html">FAQ</a>
+                <a href="about.html">About</a>
+                <a href="support.html">Support</a>
                 <a href="privacy.html">Privacy</a>
                 <a href="terms.html">Terms</a>
-                <a href="https://github.com/sugrowth/Textezi-Public" target="_blank">GitHub</a>
+                <a href="https://github.com/sugrowth/Textezi-Public" target="_blank" rel="noreferrer">GitHub</a>
             </div>
         </div>
     </footer>
