@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy | Textezi</title>
-    <meta name="description" content="Textezi privacy principles, local-first conversion, and accessibility boundaries.">
+    <meta name="description" content="Textezi privacy principles and user data handling.">
     <link rel="icon" type="image/png" href="favicon-32x32.png">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="manifest" href="site.webmanifest">
@@ -19,13 +19,9 @@
                 <span>Textezi</span>
             </a>
             <div class="nav-links">
-                <a href="index.html">Home</a>
-                <a href="features.html">Features</a>
-                <a href="who-is-this-for.html">Use Cases</a>
-                <a href="faq.html">FAQ</a>
                 <a href="about.html">About</a>
+                <a href="faq.html">FAQ</a>
                 <a href="support.html">Support</a>
-                <a href="https://github.com/sugrowth/Textezi-Public" target="_blank" rel="noreferrer">GitHub</a>
             </div>
         </div>
     </nav>
@@ -33,95 +29,30 @@
     <main>
         <section class="hero">
             <div class="container">
-                <div class="hero-card page-hero-card">
-                    <div class="page-hero-main">
-                        <div class="hero-icon">
-                            <img src="assets/app-icon.png" alt="Textezi icon">
-                        </div>
-                        <div class="page-hero-copy">
-                            <div class="eyebrow">Privacy</div>
-                            <h1>Private by default. Clear about <span class="gradient">boundaries</span>.</h1>
-                            <p>Textezi is designed so the core converter works on-device, while optional automation stays limited to specific, user-approved situations.</p>
-                        </div>
+                <div class="hero-card">
+                    <div class="hero-icon">
+                        <img src="assets/app-icon.png" alt="Textezi icon">
                     </div>
-                    <div class="hero-panel">
-                        <div class="hero-panel-title">Privacy at a glance</div>
-                        <div class="hero-panel-grid">
-                            <div class="hero-point">
-                                <strong>Core flow stays local</strong>
-                                <span>Romanization, language choices, and saved corrections are designed to stay on the phone.</span>
-                            </div>
-                            <div class="hero-point">
-                                <strong>Sensitive fields are skipped</strong>
-                                <span>Passwords, OTPs, phone inputs, and similar protected fields are intentionally excluded.</span>
-                            </div>
-                            <div class="hero-point">
-                                <strong>Preferences stay on-device</strong>
-                                <span>Automation settings, disclosure acceptance, and floating bubble state are stored locally.</span>
-                            </div>
-                            <div class="hero-point">
-                                <strong>Google Play handles unlocks</strong>
-                                <span>The one-time purchase flow depends on Google Play billing where it is enabled.</span>
-                            </div>
-                        </div>
+                    <div>
+                        <div class="eyebrow">Privacy</div>
+                        <h1>Privacy-first <span class="gradient">direction</span></h1>
+                        <p>Textezi is intended to keep its core text-conversion flow on-device and avoid sending user text to the developer by default.</p>
                     </div>
                 </div>
             </div>
         </section>
 
         <section class="section">
-            <div class="container split-grid">
-                <div class="split-card">
-                    <div class="section-label">What stays local</div>
-                    <h3>The main Textezi experience runs on your phone</h3>
-                    <div class="scope-list">
-                        <div class="scope-item">Supported text is romanized on-device for the core converter flow.</div>
-                        <div class="scope-item">Selected languages, priority order, and preferred spellings stay local to the device.</div>
-                        <div class="scope-item">Your saved corrections are part of the local quality loop, not a cloud-first requirement.</div>
+            <div class="container legal-stack">
+                <div class="legal-card">
+                    <div class="section-label">Core principles</div>
+                    <div class="legal-list">
+                        <div>User text should remain on the device for the core workflow.</div>
+                        <div>No custom keyboard is required for the product direction.</div>
+                        <div>Saved preferences and overrides should remain local in the MVP direction.</div>
+                        <div>Analytics, if added later, should avoid raw user text.</div>
                     </div>
                 </div>
-                <div class="split-card">
-                    <div class="section-label">Where permissions matter</div>
-                    <h3>Automation is optional and bounded</h3>
-                    <div class="scope-list">
-                        <div class="scope-item">Accessibility automation requires explicit Android permission and an in-app disclosure acceptance step.</div>
-                        <div class="scope-item">Textezi is designed to act on committed text in editable fields you are actively using, not everywhere on the screen.</div>
-                        <div class="scope-item">The floating bubble and minimized controls may also depend on display-over-other-apps permission.</div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="section">
-            <div class="container">
-                <div class="section-card">
-                    <div class="section-label">Guardrails</div>
-                    <h2 class="section-title">Textezi only acts where it is meant to</h2>
-                    <p class="section-copy">The product direction is straightforward: keep the core converter local, avoid broad text handling, and stay away from fields that carry account or identity risk.</p>
-                    <div class="scope-list">
-                        <div class="scope-item">Textezi is not a custom keyboard and does not need to replace the keyboard you already use.</div>
-                        <div class="scope-item">The core converter does not depend on a backend round-trip to produce Roman output.</div>
-                        <div class="scope-item">Passwords, OTPs, login flows, phone fields, and similar protected inputs are intentionally left alone.</div>
-                        <div class="scope-item">Billing and store-related purchase handling are managed through Google Play where the unlock flow is active.</div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="section">
-            <div class="container three-up">
-                <a class="link-card" href="faq.html">
-                    <div class="link-label">FAQ</div>
-                    <div class="link-title">See how privacy boundaries connect to automation, languages, and trial access</div>
-                </a>
-                <a class="link-card" href="support.html">
-                    <div class="link-label">Support</div>
-                    <div class="link-title">Report a bug or workflow issue with a clear, non-sensitive reproduction</div>
-                </a>
-                <a class="link-card" href="terms.html">
-                    <div class="link-label">Terms</div>
-                    <div class="link-title">Read the short product terms for permissions, billing, and ownership</div>
-                </a>
             </div>
         </section>
     </main>
@@ -137,14 +68,10 @@
             </div>
             <div class="footer-links">
                 <a href="index.html">Home</a>
-                <a href="features.html">Features</a>
-                <a href="who-is-this-for.html">Use Cases</a>
-                <a href="faq.html">FAQ</a>
                 <a href="about.html">About</a>
-                <a href="support.html">Support</a>
-                <a href="privacy.html">Privacy</a>
+                <a href="faq.html">FAQ</a>
                 <a href="terms.html">Terms</a>
-                <a href="https://github.com/sugrowth/Textezi-Public" target="_blank" rel="noreferrer">GitHub</a>
+                <a href="https://github.com/sugrowth/Textezi-Public" target="_blank">GitHub</a>
             </div>
         </div>
     </footer>
