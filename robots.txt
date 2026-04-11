@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sugrowth.github.io/Textezi-Public/sitemap.xml
+Sitemap: https://textezi.com/sitemap.xml
