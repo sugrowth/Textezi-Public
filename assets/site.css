@@ -130,6 +130,30 @@ nav {
     font-size: 1.06rem;
 }
 
+.brand-lockup {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    line-height: 1;
+}
+
+.brand-name {
+    font-size: inherit;
+    font-weight: 700;
+}
+
+.brand-note {
+    color: var(--text-soft);
+    font-size: 0.6rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+}
+
+.footer-brand .brand-note {
+    font-size: 0.56rem;
+}
+
 .brand img,
 .footer-brand img {
     width: 42px;
