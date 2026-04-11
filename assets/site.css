@@ -159,13 +159,18 @@ nav {
     width: 42px;
     height: 42px;
     display: block;
+    object-fit: cover;
     border-radius: 12px;
+    clip-path: inset(10% round 12px);
+    transform: scale(1.16);
+    transform-origin: center;
 }
 
 .footer-brand img {
     width: 36px;
     height: 36px;
     border-radius: 10px;
+    clip-path: inset(10% round 10px);
 }
 
 .nav-links {
@@ -401,14 +406,18 @@ main {
     width: 76px;
     height: 76px;
     flex-shrink: 0;
+    overflow: hidden;
+    border-radius: 18px;
 }
 
 .hero-icon img {
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
     display: block;
     border-radius: 18px;
+    transform: scale(1.18);
+    transform-origin: center;
 }
 
 .hero-mark {
