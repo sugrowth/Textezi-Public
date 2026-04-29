@@ -24,13 +24,15 @@ If someone lands here for the first time, the important context is:
 - **Textezi** is pronounced **Text Easy**
 - the product keeps the same language while showing supported text in **English letters**
 - the product is about **script conversion / readability**, not translation
+- language support is presented in **Validated**, **Baseline**, and **Planned** tiers
+- core conversion is local-first, while optional AI assist is a separate explicit workflow
 - this repo contains the **public site**, **support/legal pages**, **blog pages**, and **website assets**
 
 ## What this repo is not
 
 This repo does **not** contain the main Android application source.
 
-The app code lives in the separate **Textezi** repository. This repo exists so the public website can be managed independently from the product codebase.
+The app code lives in the separate **Textezi** repository: [sugrowth/Textezi](https://github.com/sugrowth/Textezi). This repo exists so the public website can be managed independently from the product codebase.
 
 ## What this website communicates
 
@@ -40,6 +42,8 @@ The public site is responsible for explaining:
 - what it does not do
 - who it is for
 - how to understand the current feature set
+- what the current language tiers mean
+- where optional AI assist differs from core on-device conversion
 - privacy and terms
 - public support entry points
 
@@ -88,6 +92,8 @@ When making changes here:
 - keep shared styling in `assets/site.css`
 - keep branding assets consistent across `assets/site-logo.png`, favicon files, and `social-preview.png`
 - keep titles, descriptions, canonicals, and schema aligned when public messaging changes
+- keep language-support claims aligned with the app's Validated / Baseline / Planned tier labels
+- keep privacy copy clear that core conversion, Auto, and Suggest only stay local, while AI assist is optional and explicit
 - treat the site as the public face of the product, not as engineering documentation
 
 ## New visitor summary
