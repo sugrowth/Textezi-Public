@@ -575,6 +575,56 @@ main {
     border-color: rgba(243, 111, 75, 0.22);
 }
 
+.convert-demo {
+    display: grid;
+    gap: 10px;
+}
+
+.convert-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+    align-items: center;
+    gap: 12px;
+    padding: 12px 14px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    font-size: 0.96rem;
+    line-height: 1.5;
+}
+
+.convert-source {
+    color: var(--mist);
+}
+
+.convert-arrow {
+    color: var(--coral);
+    font-weight: 700;
+}
+
+.convert-output {
+    color: var(--text);
+    font-weight: 600;
+    text-align: right;
+}
+
+.convert-note {
+    color: var(--text-soft);
+    font-size: 0.8rem;
+}
+
+.store-note {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    padding: 10px 16px;
+    border-radius: 999px;
+    border: 1px dashed rgba(255, 255, 255, 0.18);
+    color: var(--text-soft);
+    font-size: 0.88rem;
+    font-weight: 600;
+}
+
 .launch-strip {
     display: grid;
     gap: 8px 14px;
@@ -905,7 +955,26 @@ footer {
         width: 100%;
     }
 
+    .store-note {
+        justify-content: center;
+    }
+
     .launch-strip {
         grid-template-columns: 1fr;
+    }
+
+    .convert-row {
+        grid-template-columns: 1fr;
+        gap: 6px;
+    }
+
+    .convert-arrow {
+        transform: rotate(90deg);
+        justify-self: start;
+        width: 1em;
+    }
+
+    .convert-output {
+        text-align: left;
     }
 }
